@@ -1,0 +1,22 @@
+.notif-list {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+
+.notif-item {
+  width: 22px;
+}
+.notif-item:nth-child(3) {
+  width: 27px;
+}
+
+.notif-item img {
+  width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+  .notif-list {
+    display: none;
+  }
+}

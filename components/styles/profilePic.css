@@ -1,0 +1,13 @@
+.profile-pic {
+  width: 40px;
+}
+
+.profile-pic img {
+  width: 100%;
+}
+
+@media screen and (max-width: 620px) {
+  .profile-pic {
+    width: 30px;
+  }
+}

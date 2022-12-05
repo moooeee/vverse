@@ -1,0 +1,45 @@
+.post-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 5px 0;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.post-tab-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+
+.post-form {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.post-form .input-wrapper {
+  display: flex;
+  gap: 10px;
+  min-width: 635px;
+}
+
+.post-form .input-wrapper img {
+  width: 30px;
+}
+
+.post-form .input-wrapper .input {
+  border-radius: 100px;
+  background-color: white;
+  width: 100%;
+}
+
+@media screen and (max-width: 790px) {
+  .post-form .input-wrapper {
+    width: 100%;
+    min-width: auto;
+  }
+}

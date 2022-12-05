@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  background-color: #a5a2991a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --active-background: transparent
+    linear-gradient(270deg, #afda1a 0%, #55a4cc 100%) 0% 0% no-repeat
+    padding-box;
+}
+
+.logo-search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.notif-profile-wrapper {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.notif-profile-wrapper .mobile-nav {
+  display: none;
+}
+
+.ant-tabs-tab {
+  padding: 12px 25px !important;
+}
+
+.ant-tabs-tab-active {
+  color: #2d2d2d !important;
+}
+
+@media screen and (max-width: 560px) {
+  .notif-profile-wrapper {
+    justify-content: flex-end;
+  }
+  .notif-profile-wrapper .mobile-nav {
+    display: block;
+    margin-right: -34px;
+  }
+}
