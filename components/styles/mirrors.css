@@ -16,8 +16,7 @@
 
 .mirror-wrapper {
   position: relative;
-  background: transparent url(/_next/static/media/border.6df14969.png) 54% 50%
-    no-repeat padding-box;
+  background: transparent url(/border.png) 54% 50% no-repeat padding-box;
   border-radius: 27px;
   padding: 10px;
 }
